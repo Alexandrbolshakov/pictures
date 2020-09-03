@@ -525,6 +525,17 @@ h4 {
   font-size: 1.9rem;
   padding: 2rem 0;
 }
+
+.calcHose .hoseLenght {
+  opacity: 0.6;
+  font-family: 'Circe Extra Bold', sans-serif;
+  margin-left: 4rem;
+  appearance: none;
+  border: none;
+  display: block;
+  font-size: 1.9rem;
+  padding: 2rem 0;
+}
 .calc #size {
   margin-top: 3rem;
 }
@@ -551,7 +562,52 @@ h4 {
   overflow: hidden;
   font-size: 1em;
   /* example */
+}
 
+  .calcHose {
+    padding: 8rem 0 4rem 0;
+    /* Making it beautiful */
+  
+  }
+  .calcHose h2,
+  .calcHose .p-heading {
+    text-align: center;
+  }
+  .calcHose h2 {
+    margin-bottom: 9rem;
+  }
+  .calcHose h4 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  .calcHose select {
+    opacity: 0.6;
+    font-family: 'Circe Extra Bold', sans-serif;
+    margin-left: 4rem;
+    appearance: none;
+    border: none;
+    display: block;
+    font-size: 1.9rem;
+    padding: 2rem 0;
+  }
+  .calcHose #nutSize {
+    margin-top: 3rem;
+  }
+  .hose-price {
+    background-color: #f7e7e6;
+    padding: 4rem 7.5rem;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: -1000;
+  }
+  .calcHose .file_upload {
+    position: relative;
+    overflow: hidden;
+    font-size: 1em;
+    /* example */
+  
   height: 4em;
   /* example */
 
@@ -1258,12 +1314,17 @@ h4 {
   transform: translateX(-50%) !important;
   padding: 3rem 6rem 4rem 6rem;
 }
+
+.status {
+  text-align: center;
+}
+
 @media (max-width: 1399px) {
   .paints {
     display: none;
   }
   .calc .file_upload > div {
-    display: none;
+    display: block;
   }
   .calc .file_upload > button {
     width: 100%;
@@ -1706,6 +1767,17 @@ h4 {
     padding: 1rem;
   }
   .calc-price {
+    margin-top: 2rem;
+  }
+  .calcHose h2 {
+    margin-bottom: 4rem;
+  }
+  .calcHose select {
+    left: 0;
+    margin: 0;
+    padding: 1rem;
+  }
+  .hose-price {
     margin-top: 2rem;
   }
   .popup-consultation .button-order,
